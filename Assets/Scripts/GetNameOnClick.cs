@@ -1,13 +1,13 @@
-using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class GetNameOlick : MonoBehaviour{
+public class GetNameOnClick : MonoBehaviour{
     public Button joinButton;
     public TMP_InputField nameField;
-    string playerName;
-    public PlayerNameSO playerNameSO;
+    private string playerName;
+    [FormerlySerializedAs("playerNameSO")] public PlayerNameSO playerNameSo;
     private void OnEnable() {
         joinButton.onClick.AddListener(SaveName);
     }
@@ -18,7 +18,7 @@ public class GetNameOlick : MonoBehaviour{
 
     private void SaveName() {
         playerName = nameField.text;
-        playerNameSO.playerName = playerName;
+        playerNameSo.playerName = playerName;
         Debug.Log(playerName);
     }
 }
