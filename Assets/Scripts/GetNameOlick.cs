@@ -7,6 +7,7 @@ public class GetNameOlick : MonoBehaviour{
     public Button joinButton;
     public TMP_InputField nameField;
     string playerName;
+    public PlayerNameSO playerNameSO;
     private void OnEnable() {
         joinButton.onClick.AddListener(SaveName);
     }
@@ -17,6 +18,7 @@ public class GetNameOlick : MonoBehaviour{
 
     private void SaveName() {
         playerName = nameField.text;
+        playerNameSO.playerName = playerName;
         Debug.Log(playerName);
     }
 }

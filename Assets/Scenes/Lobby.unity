@@ -1217,6 +1217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GetNameOlick
   joinButton: {fileID: 404983433}
   nameField: {fileID: 352720577}
+  playerNameSO: {fileID: 11400000, guid: daebb94024fbbdb479a5fccbea6fe446, type: 2}
 --- !u!4 &1599725730
 Transform:
   m_ObjectHideFlags: 0
