@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d08f5a7-0cc5-46aa-9f56-ad788feae90c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Speed slope/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Speed slope/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Lobby.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GetNameOnClick.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GetNameOnClick.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerNameSO.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerNameSO.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerNameSO.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerNameSO.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameLevel.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +30,15 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Readme.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/GameLevel.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Data/WORK/UnityProjects/Speed slope/Assets/Scenes/Lobby.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Lobby.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Data/WORK/UnityProjects/Speed slope/Assets/Scenes/Lobby.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Data/WORK/UnityProjects/Speed slope/Assets/Scripts/GetNameOlick.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetNameOnClick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Data/WORK/UnityProjects/Speed slope/Assets/Scripts/GetNameOnClick.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GetNameOnClick.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerNamePrinter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Data/WORK/UnityProjects/Speed slope/ProjectSettings/EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -137,7 +132,8 @@
       <workItem from="1762776810275" duration="381000" />
       <workItem from="1762777212408" duration="30000" />
       <workItem from="1762777432316" duration="1512000" />
-      <workItem from="1762891006913" duration="1433000" />
+      <workItem from="1762891006913" duration="1905000" />
+      <workItem from="1762980237795" duration="522000" />
     </task>
     <task id="LOCAL-00001" summary="intial commit">
       <option name="closed" value="true" />
@@ -179,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762778452982</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="share name using SO">
+      <option name="closed" value="true" />
+      <created>1762892826027</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762892826027</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +204,8 @@
     <MESSAGE value="workspace and template" />
     <MESSAGE value="save name to a scriptableObject" />
     <MESSAGE value="fix script name" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix script name" />
+    <MESSAGE value="share name using SO" />
+    <option name="LAST_COMMIT_MESSAGE" value="share name using SO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

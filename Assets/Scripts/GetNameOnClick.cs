@@ -10,6 +10,7 @@ public class GetNameOnClick : MonoBehaviour{
     public GameObject warningMessage;
     private string playerName;
     [FormerlySerializedAs("playerNameSO")] public PlayerNameSO playerNameSo;
+
     private void OnEnable() {
         joinButton.onClick.AddListener(SaveName);
     }
@@ -21,7 +22,7 @@ public class GetNameOnClick : MonoBehaviour{
     private void SaveName() {
         playerName = nameField.text;
         if (string.IsNullOrEmpty(playerName)){
-           warningMessage.SetActive(true);
+            warningMessage.SetActive(true);
             return;
         }
         playerNameSo.playerName = playerName;
